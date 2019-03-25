@@ -1,0 +1,643 @@
+/*design styles*/
+
+/*for mobile*/
+
+/*header*/
+.leaf {
+  font-size: 28px;
+  color: white;
+  padding-top: 10px;
+}
+
+.title {
+  font-family: 'Leckerli One', cursive;
+  font-size: 20px;
+}
+
+
+.address {
+  font-family: 'Imprima', sans-serif;
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+.navlist {
+  display: none;
+}
+
+/*.wave {
+  font-size: 25px;
+  padding-top: 10px;
+
+}*/
+
+.dropbtn {
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.dropbtn:hover, dropbtn:focus {
+  background-color: darkturquoise;
+}
+
+.dropdown {
+  display: flex;
+  align-self: center;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 115px;
+  right: 10px;
+  background-color: lightgrey;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index:1;
+
+}
+
+.dropdown-content a {
+  color: #748381;
+  font-family: 'Imprima', sans-serif;
+  font-size: 12px;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+.header-container {
+  background-image: /*url(../img/water.jpg),*/ linear-gradient(#1292A4, #0E8976);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: white;
+  border-bottom: 5px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+  }
+/*header*/
+
+/*main section*/
+
+
+
+.main {
+  background-color: #748381;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+
+}
+
+.welcomecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.waterimage {
+  border: 5px solid white;
+  border-radius: 50%;
+
+}
+.watercontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome {
+  font-family: 'Leckerli One', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+
+
+}
+
+.mission {
+  font-family: 'Imprima', sans-serif;
+  font-size: 12px;
+  color: white;
+  text-align: justify;
+  padding-bottom: 20px;
+
+}
+
+.hourscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid white;
+
+}
+
+.hourstitle {
+  font-family: 'Leckerli One', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-top: 2px solid white;
+  padding-top: 20px;
+
+}
+.days {
+  font-family: 'Imprima', sans-serif;
+  font-size: 12px;
+  color: white;
+  padding-left: 70px;
+
+
+}
+
+.times {
+  font-family: 'Imprima', sans-serif;
+  font-size: 12px;
+  color: white;
+  padding-right: 70px;
+}
+
+.button {
+  background-color: #1292A4;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Imprima', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 12px;
+  margin-top: 25px;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*main content end*/
+
+/*bottom link section*/
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.Salon_Container {
+  background-image: url(../img/salon1.jpg),linear-gradient(#1292A4, #748381);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+  font-family: 'Leckerli One', cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.Spa_Container {
+  background-image: url(../img/spa.jpg),linear-gradient(#1292A4, #748381);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+  font-family: 'Leckerli One', cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Team_Container {
+  background-image: url(../img/team.jpg),linear-gradient(#1292A4, #748381);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+  font-family: 'Leckerli One', cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-top: 5px solid white;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a:link  {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:visited {
+color: white;
+text-decoration: none;
+
+}
+
+/*end of bottom links*/
+
+/*footer*/
+footer {
+  background-color: #748381;
+  font-family: 'Imprima', sans-serif;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-top: 5px solid white;
+}
+
+/* For desktop */
+@media only screen and (min-width: 768px) {
+
+  .header-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+  }
+  .leaf {
+    font-size: 50px;
+
+  }
+  .title {
+    font-size: 36px;
+  }
+  .address {
+    font-size: 18px;
+  }
+
+.dropbtn {
+  display: none;
+}
+
+.navlist {
+  display: inline;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-nav {
+  font-family: 'Imprima', sans-serif;
+  font-size: 16px;
+
+}
+
+li {
+  padding: 3px;
+}
+
+
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.welcomecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 20px;
+
+}
+
+.watercontainer {
+  display: flex;
+  align-self: center;
+  width: 30%;
+}
+
+.welcomecontainer2 {
+  width: 40%;
+}
+
+.welcome {
+  font-size: 26px;
+}
+
+.mission {
+  font-size: 16px;
+}
+
+.hours {
+  width: 20%;
+  align-self: center;
+}
+
+.hourstitle {
+
+}
+
+.days {
+  padding: 0px;
+}
+
+.times {
+  padding: 0px;
+}
+
+
+.Salon_Container {
+  font-family: 'Leckerli One', cursive;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  height: 200px;
+}
+
+#salonLink {
+  font-size: 36px;
+}
+
+#spaLink {
+  font-size: 36px;
+}
+
+#teamLink {
+  font-size: 36px;
+}
+
+.Spa_Container {
+  font-family: 'Leckerli One', cursive;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  height: 200px;
+
+}
+
+.Team_Container {
+  font-family: 'Leckerli One', cursive;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 5px solid white;
+  height: 200px;
+}
+
+} /*end of desktop media query*/
+
+/* For tablets *//*
+@media only screen and (min-width: 480px) {
+
+.leaf {
+  font-size: 75px;
+  margin-left: 20px;
+}
+.title {
+  font-size: 40px;
+}
+.address {
+  font-size: 20px;
+}
+
+.navlist {
+  display: show;
+}
+
+
+.welcomecontainer {
+  display: flex;
+  flex-direction: row;
+
+
+
+}
+
+.waterimage {
+  border: 5px solid white;
+  border-radius: 50%;
+
+}
+.watercontainer {
+
+}
+
+.welcomcontainer2 {
+  width: 40%;
+}
+
+.welcome {
+  font-family: 'Leckerli One', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+
+
+}
+
+.mission {
+  font-family: 'Imprima', sans-serif;
+  font-size: 12px;
+  color: white;
+  text-align: justify;
+  padding-bottom: 20px;
+
+}
+
+.hourscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid white;
+
+}
+
+.hourstitle {
+  font-family: 'Leckerli One', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-top: 2px solid white;
+  padding-top: 20px;
+
+}
+.days {
+  font-family: 'Imprima', sans-serif;
+  font-size: 12px;
+  color: white;
+
+
+
+}
+
+.times {
+  font-family: 'Imprima', sans-serif;
+  font-size: 12px;
+  color: white;
+
+}
+
+.button {
+  background-color: #1292A4;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Imprima', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 12px;
+  margin-top: 25px;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*main content end*/
+
+/*bottom link section*/
+
+/*
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.Salon_Container {
+  background-image: url(../img/salon1.jpg),linear-gradient(#1292A4, #748381);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+  font-family: 'Leckerli One', cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  width: 100%;
+
+}
+
+.Spa_Container {
+  background-image: linear-gradient(#0E8976, lightgrey);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+  font-family: 'Leckerli One', cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  width: 100%
+
+}
+
+.Team_Container {
+  background-color: #137BB6;
+  padding: 25px;
+  font-family: 'Leckerli One', cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-top: 5px solid white;
+  width: 100%;
+
+}
+/*end of bottom links*/
+
+/*footer*//*
+footer {
+  background-color: #748381;
+  font-family: 'Imprima', sans-serif;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top: 5px solid white;
+}
+*/
+
+
+
+} /*end of tablet media query*/
+  
